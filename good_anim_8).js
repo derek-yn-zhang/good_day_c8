@@ -26,7 +26,7 @@ var TxtType = function(el, toRotate, period) {
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
         var that = this;
-        var delta = 42 - Math.round(Math.random()) * 21;
+        var delta = 46 - Math.random() * 28;
 
         if (this.isDeleting) { delta /= 4; }
 
@@ -56,6 +56,6 @@ var TxtType = function(el, toRotate, period) {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.06em solid #fff}";
         document.body.appendChild(css);
     };
