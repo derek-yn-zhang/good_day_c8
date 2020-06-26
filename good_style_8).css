@@ -1,0 +1,13 @@
+/* GLOBAL STYLES */
+body {
+  font-family: monaco;
+  background: #333;
+  padding-top: 10em;
+  padding-right: 180px;
+  padding-bottom: 10px;
+  padding-left: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+* { color:#fff; text-decoration: none;}
